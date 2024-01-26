@@ -11,6 +11,7 @@ function createWindow() {
         width: 800,
         height: 600,
         autoHideMenuBar: true,
+        icon: path.join(__dirname, 'favicon.ico'),
         webPreferences: { nodeIntegration: true, contextIsolation: false },
     });
     console.log(__dirname);
